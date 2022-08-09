@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32728.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestCoverage", "UnitTestCoverage\UnitTestCoverage.csproj", "{CE387227-DF56-4F12-8A76-78AB3D426043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestCoverageTests", "UnitTestCoverageTests\UnitTestCoverageTests.csproj", "{BD7256A4-90DF-4237-8711-84AFF8D46D93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE387227-DF56-4F12-8A76-78AB3D426043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE387227-DF56-4F12-8A76-78AB3D426043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE387227-DF56-4F12-8A76-78AB3D426043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE387227-DF56-4F12-8A76-78AB3D426043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7256A4-90DF-4237-8711-84AFF8D46D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7256A4-90DF-4237-8711-84AFF8D46D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7256A4-90DF-4237-8711-84AFF8D46D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7256A4-90DF-4237-8711-84AFF8D46D93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF6FB503-F63D-4BBC-8D6E-D86776B82EDA}
+	EndGlobalSection
+EndGlobal
