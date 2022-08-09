@@ -17,5 +17,12 @@ namespace UnitTestCoverage.Tests
             int result = BasicMath.Add(5, 3);
             Assert.AreEqual(result, 8);
         }
+
+        [TestMethod()]
+        public void Subtract_ValidIntegers_ReturnsResult()
+        {
+            int result = BasicMath.Subtract(5, 3);
+            Assert.AreEqual(result, 2);
+        }
     }
 }
