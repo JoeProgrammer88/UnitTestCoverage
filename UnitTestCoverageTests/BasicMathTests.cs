@@ -5,10 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics.CodeAnalysis;
 
 namespace UnitTestCoverage.Tests
 {
     [TestClass()]
+    [ExcludeFromCodeCoverage]
     public class BasicMathTests
     {
         [TestMethod()]
