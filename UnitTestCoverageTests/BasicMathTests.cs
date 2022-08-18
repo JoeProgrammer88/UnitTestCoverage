@@ -5,10 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics.CodeAnalysis;
 
 namespace UnitTestCoverage.Tests
 {
     [TestClass()]
+    [ExcludeFromCodeCoverage]
     public class BasicMathTests
     {
         [TestMethod()]
@@ -16,6 +18,13 @@ namespace UnitTestCoverage.Tests
         {
             int result = BasicMath.Add(5, 3);
             Assert.AreEqual(result, 8);
+        }
+
+        [TestMethod()]
+        public void Subtract_ValidIntegers_ReturnsResult()
+        {
+            int result = BasicMath.Subtract(5, 3);
+            Assert.AreEqual(result, 2);
         }
     }
 }
